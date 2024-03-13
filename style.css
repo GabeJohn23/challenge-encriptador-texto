@@ -1,0 +1,133 @@
+*{
+    background-color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.logo{
+    padding: 10px; 
+    margin-left: 25px;
+    margin-top: 15px;  
+}
+
+main{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+textarea{
+    border: dotted 2px #CCCCCC;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+::placeholder{
+    color: #0A3871;
+    opacity: 50%;
+}
+
+.campo-encriptar{
+    width: 55%;
+    margin-right: 10px;
+}
+
+.campo-texto{
+    width: 95%;
+}
+
+.info{
+    font-size: 17px;
+    color: #0A3871;
+    margin: 15px 20px;
+}
+
+.botones{
+    display: flex;
+}
+
+.btnEncriptar{
+    width: 40%;
+    height: 60px;
+    font-size: 25px;
+    margin-right: 10px;
+    background-color: #0A3871;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.btnEncriptar:hover{
+    transform: scale(110%);
+    background: #185caf;
+    transition: 200ms;
+}
+
+.btnEncriptar:active{
+    transform: scale(100%);
+    background: #185caf;
+}
+
+.btnDesencriptar{
+    width: 40%;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 24px;
+    border: solid 2px #0A3871;
+    color: #0A3871;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.btnDesencriptar:hover{
+    transform: scale(110%);
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.btnDesencriptar:active{
+    transform: scale(100%);
+}
+
+.campo-mensaje{
+    width: 35%;
+    margin-left: 10px;
+}
+
+.mensaje{
+    width: 95%;
+}
+
+@media screen and (max-width:480px) {
+
+    .info{
+        font-size: 14px;
+    }
+
+    .btnEncriptar{
+        width: 50%;
+        height: 50px;
+        font-size: 14px;
+        margin-right: 5px;
+        background-color: #0A3871;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .btnDesencriptar{
+        width: 50%;
+        height: 50px;
+        font-size: 14px;
+        border-radius: 20px;
+        border: solid 2px #0A3871;
+        color: #0A3871;
+        margin-left: 5px;
+        text-align: center;
+    }
+    
+}
